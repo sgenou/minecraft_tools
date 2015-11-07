@@ -24,6 +24,6 @@ foreach ($merchants_list as $merchants_list_element => $merchants_list_realname)
 							Lore:
 							[Appel ' . $merchants_list_realname .']}}}		},
 ';
-  echo '{maxUses:1000000,buy:{id:diamond,Count:16},sell:{id:spawn_egg,Count:1,Damage:94,tag:{ench:[{id:34,lvl:1}],display:{Name:' . $merchants_list_element . '}}}},';
+  echo '{maxUses:1000000,buy:{id:diamond,Count:16},sell:{id:spawn_egg,Count:1,Damage:94,tag:{ench:[{id:34,lvl:1}],display:{Name:' . $merchants_list_element . ',Lore:[Appel ' . $merchants_list_realname . ']}}}},';
   echo "\r\n";  
 }
