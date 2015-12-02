@@ -74,6 +74,15 @@ foreach ($liste_etages as $etage) {
 	},
 	OnGround:1b
 }";
+			$bloc2 = 'execute @e[type=Item,score_' . $action . $etage . '_min=1] ~ ~ ~ blockdata ~ ~ ~ 
+{
+	Text1:"{\"text\":\"\",\"color\":\"dark_red\",\"bold\":\"true\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/tp @p[r=2] ~ ~' . ($action == 'Up' ? '' : '-') . $etage . ' ~\"}}",
+	Text2:"{\"text\":\"' . ($action == 'Up' ? '^' : '') . '\",\"color\":\"dark_red\",\"bold\":\"true\"}",
+	Text3:"{\"text\":\"|\",\"color\":\"dark_red\",\"bold\":\"true\"}",
+	Text4:"{\"text\":\"' . ($action == 'Up' ? '' : 'V') . '\",\"color\":\"red\"}",
+	id:"Sign"
+}';
+			$bloc3 = '/tp @e[type=Item,score_' . $action . $etage . '_min=1] ~ ~-1000 ~';
 			file_put_contents('blocs_de_commande_ascenceurs.txt', $bloc1 . "\r\n" . $bloc2 . "\r\n" . $bloc3 . "\r\n" ,FILE_APPEND);
 			//Initialisation du scoreboard
 			$init_command = "/scoreboard objectives add " . $action . $etage . " dummy\r\n";
