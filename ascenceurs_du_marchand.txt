@@ -1,0 +1,457 @@
+{
+				maxUses:1000000,
+				buy:
+				{
+					id:diamond,
+					Count:1
+				},
+				sell:
+				{
+					id:ladder,
+					Count:1,
+					tag:
+					{
+						ench:
+						[
+							{
+								id:34s,
+								lvl:1s
+							}
+						],
+						display:
+						{
+							Name:"Up4",
+							Lore:
+							[
+								"Transforme une pancarte en",
+								"ascenseur pour monter de 4 blocs",
+								"",
+								"Jeter l'objet au sol sous",
+								"la pancarte à enchanter.",
+								"La pancarte doit se trouver",
+								"deux blocs au dessus du sol."
+							]
+						},
+						HideFlags:1
+					}
+				}
+			},
+			{
+				maxUses:1000000,
+				buy:
+				{
+					id:diamond,
+					Count:1
+				},
+				sell:
+				{
+					id:ladder,
+					Count:1,
+					tag:
+					{
+						ench:
+						[
+							{
+								id:34s,
+								lvl:1s
+							}
+						],
+						display:
+						{
+							Name:"Down4",
+							Lore:
+							[
+								"Transforme une pancarte en",
+								"ascenseur pour descendre de 4 blocs",
+								"",
+								"Jeter l'objet au sol sous",
+								"la pancarte à enchanter.",
+								"La pancarte doit se trouver",
+								"deux blocs au dessus du sol."
+							]
+						},
+						HideFlags:1
+					}
+				}
+			},
+			{
+				maxUses:1000000,
+				buy:
+				{
+					id:diamond,
+					Count:1
+				},
+				sell:
+				{
+					id:ladder,
+					Count:1,
+					tag:
+					{
+						ench:
+						[
+							{
+								id:34s,
+								lvl:1s
+							}
+						],
+						display:
+						{
+							Name:"Up5",
+							Lore:
+							[
+								"Transforme une pancarte en",
+								"ascenseur pour monter de 5 blocs",
+								"",
+								"Jeter l'objet au sol sous",
+								"la pancarte à enchanter.",
+								"La pancarte doit se trouver",
+								"deux blocs au dessus du sol."
+							]
+						},
+						HideFlags:1
+					}
+				}
+			},
+			{
+				maxUses:1000000,
+				buy:
+				{
+					id:diamond,
+					Count:1
+				},
+				sell:
+				{
+					id:ladder,
+					Count:1,
+					tag:
+					{
+						ench:
+						[
+							{
+								id:34s,
+								lvl:1s
+							}
+						],
+						display:
+						{
+							Name:"Down5",
+							Lore:
+							[
+								"Transforme une pancarte en",
+								"ascenseur pour descendre de 5 blocs",
+								"",
+								"Jeter l'objet au sol sous",
+								"la pancarte à enchanter.",
+								"La pancarte doit se trouver",
+								"deux blocs au dessus du sol."
+							]
+						},
+						HideFlags:1
+					}
+				}
+			},
+			{
+				maxUses:1000000,
+				buy:
+				{
+					id:diamond,
+					Count:1
+				},
+				sell:
+				{
+					id:ladder,
+					Count:1,
+					tag:
+					{
+						ench:
+						[
+							{
+								id:34s,
+								lvl:1s
+							}
+						],
+						display:
+						{
+							Name:"Up6",
+							Lore:
+							[
+								"Transforme une pancarte en",
+								"ascenseur pour monter de 6 blocs",
+								"",
+								"Jeter l'objet au sol sous",
+								"la pancarte à enchanter.",
+								"La pancarte doit se trouver",
+								"deux blocs au dessus du sol."
+							]
+						},
+						HideFlags:1
+					}
+				}
+			},
+			{
+				maxUses:1000000,
+				buy:
+				{
+					id:diamond,
+					Count:1
+				},
+				sell:
+				{
+					id:ladder,
+					Count:1,
+					tag:
+					{
+						ench:
+						[
+							{
+								id:34s,
+								lvl:1s
+							}
+						],
+						display:
+						{
+							Name:"Down6",
+							Lore:
+							[
+								"Transforme une pancarte en",
+								"ascenseur pour descendre de 6 blocs",
+								"",
+								"Jeter l'objet au sol sous",
+								"la pancarte à enchanter.",
+								"La pancarte doit se trouver",
+								"deux blocs au dessus du sol."
+							]
+						},
+						HideFlags:1
+					}
+				}
+			},
+			{
+				maxUses:1000000,
+				buy:
+				{
+					id:diamond,
+					Count:1
+				},
+				sell:
+				{
+					id:ladder,
+					Count:1,
+					tag:
+					{
+						ench:
+						[
+							{
+								id:34s,
+								lvl:1s
+							}
+						],
+						display:
+						{
+							Name:"Up7",
+							Lore:
+							[
+								"Transforme une pancarte en",
+								"ascenseur pour monter de 7 blocs",
+								"",
+								"Jeter l'objet au sol sous",
+								"la pancarte à enchanter.",
+								"La pancarte doit se trouver",
+								"deux blocs au dessus du sol."
+							]
+						},
+						HideFlags:1
+					}
+				}
+			},
+			{
+				maxUses:1000000,
+				buy:
+				{
+					id:diamond,
+					Count:1
+				},
+				sell:
+				{
+					id:ladder,
+					Count:1,
+					tag:
+					{
+						ench:
+						[
+							{
+								id:34s,
+								lvl:1s
+							}
+						],
+						display:
+						{
+							Name:"Down7",
+							Lore:
+							[
+								"Transforme une pancarte en",
+								"ascenseur pour descendre de 7 blocs",
+								"",
+								"Jeter l'objet au sol sous",
+								"la pancarte à enchanter.",
+								"La pancarte doit se trouver",
+								"deux blocs au dessus du sol."
+							]
+						},
+						HideFlags:1
+					}
+				}
+			},
+			{
+				maxUses:1000000,
+				buy:
+				{
+					id:diamond,
+					Count:1
+				},
+				sell:
+				{
+					id:ladder,
+					Count:1,
+					tag:
+					{
+						ench:
+						[
+							{
+								id:34s,
+								lvl:1s
+							}
+						],
+						display:
+						{
+							Name:"Up8",
+							Lore:
+							[
+								"Transforme une pancarte en",
+								"ascenseur pour monter de 8 blocs",
+								"",
+								"Jeter l'objet au sol sous",
+								"la pancarte à enchanter.",
+								"La pancarte doit se trouver",
+								"deux blocs au dessus du sol."
+							]
+						},
+						HideFlags:1
+					}
+				}
+			},
+			{
+				maxUses:1000000,
+				buy:
+				{
+					id:diamond,
+					Count:1
+				},
+				sell:
+				{
+					id:ladder,
+					Count:1,
+					tag:
+					{
+						ench:
+						[
+							{
+								id:34s,
+								lvl:1s
+							}
+						],
+						display:
+						{
+							Name:"Down8",
+							Lore:
+							[
+								"Transforme une pancarte en",
+								"ascenseur pour descendre de 8 blocs",
+								"",
+								"Jeter l'objet au sol sous",
+								"la pancarte à enchanter.",
+								"La pancarte doit se trouver",
+								"deux blocs au dessus du sol."
+							]
+						},
+						HideFlags:1
+					}
+				}
+			},
+			{
+				maxUses:1000000,
+				buy:
+				{
+					id:diamond,
+					Count:1
+				},
+				sell:
+				{
+					id:ladder,
+					Count:1,
+					tag:
+					{
+						ench:
+						[
+							{
+								id:34s,
+								lvl:1s
+							}
+						],
+						display:
+						{
+							Name:"Up9",
+							Lore:
+							[
+								"Transforme une pancarte en",
+								"ascenseur pour monter de 9 blocs",
+								"",
+								"Jeter l'objet au sol sous",
+								"la pancarte à enchanter.",
+								"La pancarte doit se trouver",
+								"deux blocs au dessus du sol."
+							]
+						},
+						HideFlags:1
+					}
+				}
+			},
+			{
+				maxUses:1000000,
+				buy:
+				{
+					id:diamond,
+					Count:1
+				},
+				sell:
+				{
+					id:ladder,
+					Count:1,
+					tag:
+					{
+						ench:
+						[
+							{
+								id:34s,
+								lvl:1s
+							}
+						],
+						display:
+						{
+							Name:"Down9",
+							Lore:
+							[
+								"Transforme une pancarte en",
+								"ascenseur pour descendre de 9 blocs",
+								"",
+								"Jeter l'objet au sol sous",
+								"la pancarte à enchanter.",
+								"La pancarte doit se trouver",
+								"deux blocs au dessus du sol."
+							]
+						},
+						HideFlags:1
+					}
+				}
+			},
+			

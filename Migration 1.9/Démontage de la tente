@@ -1,0 +1,19 @@
+/give @p[score_foldTent_min=1] spawn_egg 1 0 
+{
+	EntityTag:
+	{
+		id:"Squid"
+	},
+	ench:
+	[
+		{
+			id:34,
+			lvl:1
+		}
+	],
+	display:
+	{
+		Name:Tente
+	}
+}
+

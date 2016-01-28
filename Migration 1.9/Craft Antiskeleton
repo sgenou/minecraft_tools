@@ -1,0 +1,31 @@
+execute @e[score_OVCku_I_min=1,score_OVCku_I=1] ~ ~ ~ execute @e[r=0,score_OVCku_I_min=2,score_OVCku_I=2] ~ ~ ~ summon Item ~ ~ ~ 
+{
+	Item:
+	{
+		id:"minecraft:spawn_egg",
+		Count:1,
+		tag:
+		{
+			EntityTag:
+			{
+				id:"Squid"
+			},
+			ench:
+			[
+				{
+					id:34,
+					lvl:1
+				}
+			],
+			display:
+			{
+				Name:"AntiSkeleton",
+				Lore:
+				[
+					"Plus de squelettes dans un rayon de 16 blocs",
+					"Attention spawne un squid a maintenir en vie"
+				]
+			}
+		}
+	}
+}
