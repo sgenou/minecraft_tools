@@ -48,7 +48,6 @@ foreach ($data as $data_element) {
 				{
 					id:enchanted_book,
 					Count:1,
-					rewardExp: false,
 					tag:
 					{
 						StoredEnchantments:
@@ -59,7 +58,8 @@ foreach ($data as $data_element) {
 								}
 							]
 					}
-				}
+				},
+				rewardExp: false
 			},";
 }
 $output = substr($output, 0, -1);
