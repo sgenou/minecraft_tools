@@ -27,6 +27,15 @@ if (($handle = fopen("Couts enchantements.csv", "r")) !== FALSE) {
     fclose($handle);
 }
 
+$row = 1;
+if (($handle = fopen("ench_ids.csv", "r")) !== FALSE) {
+    while (($temp_data = fgetcsv($handle, 1000, ",")) !== FALSE) {
+			$ench_ids[$temp_data[0]] = $temp_data[1];
+        }
+    
+    fclose($handle);
+}
+
 foreach ($data as $data_element) {
 	$output .= "	{
 				maxUses:1000000,
@@ -39,12 +48,13 @@ foreach ($data as $data_element) {
 				{
 					id:enchanted_book,
 					Count:1,
+					rewardExp: false,
 					tag:
 					{
 						StoredEnchantments:
 							[
 								{
-									id:\"" . $data_element[0] . "\",
+									id:" . $ench_ids[$data_element[0]] . ",
 									lvl:" . $data_element[1] . "
 								}
 							]
@@ -59,5 +69,4 @@ $output .= "]
 }
 ";
 
-echo $output;
 file_put_contents('marchand_enchantemenets.txt', $output);
