@@ -1,4 +1,4 @@
-execute @e[score_NVCku_I_min=1,score_NVCku_I=1] ~ ~ ~ execute @e[r=0,score_NVCku_I_min=2,score_NVCku_I=2] ~ ~ ~ summon Item ~ ~ ~ 
+execute @e[score_NVCku_I_min=1,score_NVCku_I=1] ~ ~ ~ execute @e[r=1,score_NVCku_I_min=2,score_NVCku_I=2] ~ ~ ~ summon Item ~ ~ ~ 
 {
 	Item:
 	{
